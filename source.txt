@@ -1,12 +1,14 @@
-line 1
-line 1
-line 1
-line 1
-line 2
-line 2
-line 2
-line 2
-line 3
-line 3
-line 4
-line 4
+main {
+    var a:int = 0;
+    var b:string;
+    var c:array:char;
+
+    if (a == 0) {
+        a = a + 1;
+    }
+
+    var d:char = 'a';
+    while (b != "something") {
+        c = c + d;
+    }
+}

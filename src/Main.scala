@@ -5,7 +5,7 @@ import scanner.Scanner
   */
 object Main {
   def main(args: Array[String]): Unit = {
-    val scanner:Scanner = new Scanner()
+    val scanner = new Scanner("settings.txt")
     scanner.scanFile("source.txt")
   }
 }
